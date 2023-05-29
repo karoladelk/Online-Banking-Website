@@ -28,35 +28,65 @@
 				<div class="container">
 						
                     <!-- Logo -->
-                    <h1><a href="#" id="logo" style="line-height: 1; width: 20000px;">Announcement</a></h1>
-
+						<h1><a href="#" id="logo">Apply Credit Card</a></h1>
+					
+					
 					<!-- Nav -->
-          <nav id="nav" style="position:relative;  top: 40px;  align-content: center;">
+          <nav id="nav" style="position:relative;  top: 70px;  width: 1400px; left:-110px">
             <ul>
-              <li><a href="homeAdmin.html">Home</a></li>
+              <li><a href="home.html">Home</a></li>
               
               <li>
-              <a href="Announce.html">Make Announcement</a>
-              
-              </li>                   
-            
-              </li>
-            
-            
-              <li><a href="manageUsersAdmin.html">Users</a>
-              </li>
-              <li><a href="TechIssueAdmin.html">Technical Issues</a>
-              
-              <li><a href="">Settings</a>
+              <a href="">Transfers and Payments</a>
               <ul>
-                <li><a href="userInfoAdmin.html">My User Account Info</a></li>
-                <li><a href="changePassAdmin.html">Change Password</a></li>
-                <!-- <li><a href="manageUsersAdmin.html">Manage Notifications</a></li> -->
-                <li><a href="login-page.html">Logout</a></li>
+              <li><a href="transfer-to-accounts.html">Transfer Money to Other Bank Account</a></li>
+              <li><a href="pay-credit card.html">Pay Credit Card Bill</a></li>
+              <li><a href="pay-loan.html">Pay Loan Installment</a></li>
+              <li>
+              <a href="pay-other.html">Pay personal bills</a>
+              </li>
+              </ul>
+              </li>                   
+              <li><a href="#">Request</a>
+              <ul>
+              <li><a href="apply-creditcard.html">Credit Card Issuance</a></li>
+              <li><a href="apply-loan.html">Loan</a></li>
+              </ul>
+              </li>
+              <li><a href="#">Support</a>
+              <ul>
+              <li><a href="TechIssue.html">Technical Issue</a></li>
+              <li><a href="CardIssue.html">Credit Card Issue</a></li>
+              <!-- <li><a href="#">Chat With Us</a></li> -->
               </ul>
               </li>
               
-            
+              <li><a href="#">Bank Account Details</a>
+              <ul>
+              <li><a href="accountinfo.html">Account Info</a></li>
+              <li><a href="view-account-transactions.html">Transfer History</a></li>
+              <li><a href="view-creditcard-transactions.html">Transaction History</a></li>
+              <li><a href="view-creditcars-points.html">Credit Card(s)</a></li>
+              
+              </ul>
+              </li>
+              <li><a href="#">Manage Account</a>
+              <ul>
+              <li><a href="OpenAcc.html">Open New Bank Account</a></li>
+              <li><a href="CloseAcc.html">Close Bank Account</a></li>
+              </ul>
+              </li>
+              
+              <li><a href="#">Settings</a>
+              <ul>
+              <li><a href="userInfo.html">My User Account Info</a></li>
+              <li><a href="reminders.html">Set Reminders</a></li>
+              <li><a href="changePass.html">Change Password</a></li>
+              <li><a href="login-page.html">Logout</a></li>
+              </ul>
+              </li>
+              <li><a href="notifications.html">Notifications</a>
+              </li>
             </ul>
             </nav>
                         
@@ -68,8 +98,8 @@
 
 
         
-          <div class="box" style="align-items: center;justify-content: center; font-size: 16px;
-          color: #1f0da8; margin-top: 100px;" >
+      <div class="box" style="align-items: center;justify-content: center; font-size: 16px;
+      color: #1f0da8; margin-top: 180px;" >
             <!-- <h3>Apply for a Credit Card</h3>
             <h4 style="color: #1f0da8;"><sup>%</sup>2-4 interest rate<span> / month</span></h4>
             <ul>
@@ -79,12 +109,23 @@
             </ul>
             <div class="login">
               <form>
-                  <!-- <label for="chk" aria-hidden="true">Login</label> -->
-                  <textarea name="fn" placeholder="Write the announcement you want to make here." style="width: 910px; height: 200px; vertical-align: top;" required=""></textarea>
-
-
-
-                 <p></p>
+                <!-- <label for="chk" aria-hidden="true"></label> -->
+                <input type="email" name="email" placeholder="National ID" required>
+                  <input type="password" name="pswd" placeholder="Card Type" required="">
+                  <input type="email" name="email" placeholder="Net Monthly Income" required="">
+                  <input type="email" name="email" placeholder="Employer Name" required="">
+                  <input type="email" name="email" placeholder="Job Title" required="">
+                  
+              
+                  <label class="container">By checking this box, the customer gives the Bank the authority to disclose all/part of his/her data and information. This includes checking the borrower's I-Score, which may be required for the request to be approved.
+                      The Bank also maintains the right to make inquiries about the customer at other banks, the Central Bank of Egypt, or similar entities.
+                      <input type="checkbox" checked="checked">
+                      <span class="checkmark"></span>
+                    </label>
+                    
+                    
+                  <!-- <a href="/home.html" class="button alt">Confirm</a> -->
+                  <p></p>
               
                   
                     
@@ -101,7 +142,7 @@
                     </script>
                   </head>
                   <body>
-                    <button onclick="showMessage()" class="button alt">Announce</button>
+                    <button onclick="showMessage()" class="button alt">Apply</button>
                     <div id="message" style="color: crimson;text-align:center;top: 200px; margin-top: 5%; "></div>
                   </body>
                   
@@ -152,47 +193,4 @@
     
   </section><!-- End Pricing Section -->
 </body>
-<div id="footer" style="background:#03112a; background-size: cover;">
-			<div class="container">
-
-				<!-- Lists -->
-					<div class="row">
-						<div class="8u">
-							<section>
-								<header class="major">
-									<h2>Stay in Contact!</h2>
-									<span class="byline">We value your relationship with our bank and want to stay connected with you. By keeping in touch, we can provide you with personalized assistance, timely updates, and ensure the security of your accounts. Together, we can achieve your financial goals. Stay in contact with us for a seamless banking experience!</span>
-								</header>
-
-							</section>
-						</div>
-						<div class="4u">
-							<section>
-								<header class="major">
-									<h2>Contact Info</h2>
-
-								</header>
-								<ul class="contact">
-									<li>
-										<span class="address">Address</span>
-										<span>1234 90 Street <br />Cairo, Egypt</span>
-									</li>
-									<li>
-										<span class="mail">Mail</span>
-										<span><a href="#">SCB@gmail.com</a></span>
-									</li>
-									<li>
-										<span class="phone">Phone</span>
-										<span>(221) 7849-3426</span>
-									</li>
-								</ul>	
-							</section>
-						</div>
-					</div>
-
-				
-
-
-			</div>
-		</div>
 </html>
