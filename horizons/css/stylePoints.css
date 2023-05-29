@@ -1,0 +1,53 @@
+#smartshiprewards {
+    .smartshiprewardspricecenter {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+    }
+    .smartshiprewardsprice {
+        display: inline-block;
+        border-color: red;
+        border: 2px black;
+        font-size: 26px;
+        text-align: center;
+        margin-top: 10px;
+        background-color: #337ab7;
+        border-radius: 30px;
+        padding: 5px 15px;
+    }
+    .p-t-3 {
+        padding-top: 3px;
+    }
+    .login-btn {
+        width: 64%;
+        position: relative;
+        min-height: 1px;
+        padding-left: 15px;
+        padding-right: 15px;
+        float: left;
+    }
+    .shop-btn {
+        width: 36%;
+        position: relative;
+        min-height: 1px;
+        padding-left: 15px;
+        padding-right: 15px;
+        float: left;
+    }
+    .card-footer--link {
+        padding: 0px;
+        border: none;
+    }
+    .card-footer--link .card-footer__icon {
+        margin-right: 0px;
+    }
+      .border_top {
+          border-top: 1px solid #cfcfcf;
+    }
+    .card-body {
+        padding: 16px 16px 0px 16px;
+    }
+    .p-b-15 {
+        padding-bottom: 0px !important;
+    }
+}
